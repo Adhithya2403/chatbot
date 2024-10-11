@@ -19,7 +19,7 @@ def chatbot_response(user_input):
     return responses.get(user_input.lower(), "I'm sorry, I don't understand that.")
 
 def main():
-    st.title("Adhithyaa bot")
+    st.title("Team OREO")
     
     user_input = st.text_input("You:")
     
